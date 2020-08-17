@@ -1,3 +1,5 @@
+<!-- 支払い画面 -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +9,7 @@
    <meta name="description" content="Askbootstrap">
    <meta name="author" content="Askbootstrap">
    <link rel="icon" type="image/png" href="img/fav.png">
-   <title>Swiggi - Online Food Ordering Website Mobile Template</title>
+   <title>BOPS_支払い画面</title>
    <!-- Slick Slider -->
    <link rel="stylesheet" type="text/css" href="vendor/slick/slick.min.css" />
    <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.min.css" />
@@ -25,30 +27,32 @@
    <div class="osahan-payment">
       <div class="bg-primary border-bottom px-3 pt-3 pb-5">
          <a class="toggle togglew toggle-2" href="#"><span></span></a>
-         <a class="text-white font-weight-bold" href="checkout.html"><i class="feather-chevron-left"></i> Back</a>
-         <h2 class="font-weight-bold m-0 text-white pt-3">Checkout</h2>
+         <a class="text-white font-weight-bold" href="checkout.html"><i class="feather-chevron-left"></i> 戻る</a>
+         <h2 class="font-weight-bold m-0 text-white pt-3">お届け・支払い</h2>
       </div>
       <!-- checkout -->
       <div class="p-3 osahan-cart-item">
-         <div class="osahan-cart-item-profile bg-white rounded shadow p-3 mt-n5">
+         <div class="osahan-cart-item-profile bg-white rounded shadow p-3">
             <div class="d-flex flex-column">
-               <h6 class="mb-2 font-weight-bold">DELIVERY ADDRESS</h6>
+               <h6 class="mb-2 font-weight-bold">受け取り場所</h6>
                <div class="custom-control custom-radio mb-2 px-0">
                   <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked="">
                   <label class="custom-control-label border osahan-check p-3 w-100 rounded border-primary"
                      for="customRadio1">
-                     <b><i class="feather-home mr-2"></i> Home</b> <br>
-                     <p class="small mb-0 pl-4">4904 Goldner Ranch, Jawaddi kalan, punjab, 141013</p>
+                     <b><i class="feather-briefcase mr-2"></i> スーパーで受け取り</b> <br>
+                     <p class="small mb-0 pl-4">指定場所</p>
                   </label>
                </div>
                <div class="custom-control custom-radio mb-2 px-0">
                   <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
                   <label class="custom-control-label border osahan-check p-3 w-100 rounded bg-light" for="customRadio2">
-                     <b><i class="feather-briefcase mr-2"></i> Work</b> <br>
-                     <p class="small mb-0 pl-4">Model Town, Ludhiana, Punjab 141002, India</p>
+                     <b><i class="feather-home mr-2"></i> 自宅に配送</b> <br>
+                     <p class="small mb-0 pl-4">住所</p>
                   </label>
                </div>
-               <a class="btn btn-primary" href="#" data-toggle="modal" data-target="#exampleModal"> ADD NEW ADDRESS </a>
+               <class class="btn btn-primary" href="#" data-toggle="modal" data-target="#exampleModal">
+                  受け取り場所を追加
+               </class>
             </div>
          </div>
       </div>
@@ -58,7 +62,7 @@
                <h2 class="mb-0">
                   <button class="d-flex p-3 align-items-center btn btn-link w-100" type="button" data-toggle="collapse"
                      data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                     <i class="feather-credit-card mr-3"></i> Credit/Debit Card
+                     <i class="feather-credit-card mr-3"></i> クレジットカード
                      <i class="feather-chevron-down ml-auto"></i>
                   </button>
                </h2>
@@ -102,7 +106,7 @@
                <h2 class="mb-0">
                   <button class="d-flex p-3 align-items-center btn btn-link w-100" type="button" data-toggle="collapse"
                      data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                     <i class="feather-globe mr-3"></i> Net Banking
+                     <i class="feather-globe mr-3"></i> キャッシュレス決済
                      <i class="feather-chevron-down ml-auto"></i>
                   </button>
                </h2>
@@ -144,7 +148,7 @@
                <h2 class="mb-0">
                   <button class="d-flex p-3 align-items-center btn btn-link w-100" type="button" data-toggle="collapse"
                      data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                     <i class="feather-dollar-sign mr-3"></i> Cash on Delivery
+                     <i class="feather-dollar-sign mr-3"></i>現金
                      <i class="feather-chevron-down ml-auto"></i>
                   </button>
                </h2>
@@ -157,8 +161,7 @@
             </div>
          </div>
       </div>
-      <div class="fixed-bottom"><a class="btn btn-success btn-lg btn-block" href="profile.html">PAY $1329<i
-               class="feather-arrow-right"></i></a></div>
+      <div class="fixed-bottom"><a class="btn btn-success btn-lg btn-block" href="profile.html">支払い合計 2341 円</a></div>
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
          aria-hidden="true">
